@@ -1,0 +1,35 @@
+nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  //background-color: crimson;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: $white solid 2px;
+  font-family: gill;
+
+  .logo {
+    width: 80px;
+    height: 20px;
+    align-self: center;
+    display: flex;
+    color: $white;
+    font-family: Gill;
+    font-size: 20px;
+  }
+
+  .links {
+    width: 350px;
+    height: 42px;
+    align-self: center;
+    display: flex;
+    font-family: Gill;
+    font-size: 15px;
+
+    a {
+      text-decoration: none;
+      color: $white;
+      margin: auto;
+    }
+  }
+}

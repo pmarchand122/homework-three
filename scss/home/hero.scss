@@ -1,0 +1,45 @@
+.hero {
+  width: 1280px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, $overlay-black, $overlay-black),
+    url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 10px;
+}
+
+.largeTEXThero {
+  //background-color: lightcoral;
+  margin-top: 80px;
+  justify-content: center;
+  display: flex;
+  color: $white;
+  font-family: Thin;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.smallTEXThero {
+  width: 500px;
+  margin-bottom: 30px;
+  margin-left: 380px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: $white;
+  font-family: Gill;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.readMORE {
+  //background-color: lightgreen;
+  justify-content: center;
+  display: flex;
+  color: $white;
+  font-size: 15px;
+  font-family: Gill;
+  font-weight: bold;
+}

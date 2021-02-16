@@ -1,0 +1,75 @@
+.promo-tours {
+  width: 1280px;
+  height: 304px;
+  margin: -50px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
+
+  .promo1 {
+    height: 304px;
+    width: 236px;
+    background-color: bisque;
+    background-image: linear-gradient(to right, $overlay-black, $overlay-black),
+      url(../images/tour/tour-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .promo2 {
+    height: 304px;
+    width: 236px;
+    background-color: bisque;
+    background-image: linear-gradient(to right, $overlay-black, $overlay-black),
+      url(../images/tour/tour-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .promo3 {
+    height: 304px;
+    width: 236px;
+    //background-color: bisque;
+    background-image: linear-gradient(to right, $overlay-black, $overlay-black),
+      url(../images/tour/tour-03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.largeTEXTpromo {
+  //background-color: lightcoral;
+  margin-top: 80px;
+  justify-content: center;
+  display: flex;
+  color: $white;
+  font-family: Thin;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.smallTEXTpromo {
+  //background-color: lightblue;
+  margin: -20px;
+  justify-content: center;
+  display: flex;
+  color: $white;
+  font-size: 30px;
+  font-family: Thin;
+  font-weight: bold;
+}
+
+.learnMORE {
+  margin: 70px 0 auto 0;
+  //background-color: lightgreen;
+  justify-content: center;
+  display: flex;
+  color: $white;
+  font-size: 15px;
+  font-family: Gill;
+  font-weight: bold;
+}
